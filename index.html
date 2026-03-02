@@ -12,6 +12,7 @@
   </head>
   <body>
     <!-- header -->
+
     <!-- navbar -->
     <nav class="navbar bg-gray-100 border-b border-gray-200">
       <div
@@ -42,10 +43,12 @@
       </div>
     </nav>
     <!-- navbar end-->
+
     <!-- header end-->
 
     <!-- body section -->
-    <!-- About Me Section -->
+
+    <!-- About me Section -->
     <section class="hero">
       <div
         class="max-w-7xl mx-auto px-6 py-24 flex flex-col lg:flex-row items-center justify-between gap-16"
@@ -102,8 +105,10 @@
         </div>
       </div>
     </section>
-    <!-- exparience section -->
-    <section class="py-20 exparience">
+    <!-- About me Section end-->
+
+    <!-- experience section -->
+    <section class="exparience z-10">
       <!-- Rounded Container -->
       <div
         class="max-w-7xl mx-auto bg-[#fff] rounded-2xl px-12 py-20 shadow-xl"
@@ -112,7 +117,9 @@
           class="flex flex-col lg:flex-row items-center justify-between gap-20"
         >
           <!-- Image and Floating Social -->
-          <div class="relative w-[424px] h-[468px] bg-[#E7E8EB] rounded-2xl">
+          <div
+            class="relative w-[424px] h-[468px] bg-[#E7E8EB] rounded-2xl overflow-visible"
+          >
             <img
               src="image/img.png"
               alt=""
@@ -121,36 +128,42 @@
 
             <!-- SOCIAL CARD -->
             <div
-              class="absolute left-1/2 -translate-x-1/2 bottom-[-40px] z-10 bg-white w-[320px] h-[80px] rounded-xl shadow-lg flex items-center justify-around text-purple-600"
+              class="absolute left-1/2 -translate-x-1/2 -bottom-10 z-10 bg-white w-[320px] h-[80px] rounded-xl shadow-lg flex items-center justify-around text-purple-600"
             >
               <a
-                href=""
+                href="#"
                 class="social-icon flex items-center justify-center w-12 h-12"
               >
                 <i class="fa-brands fa-facebook-f text-xl"></i>
               </a>
 
               <a
-                href=""
+                href="#"
                 class="social-icon flex items-center justify-center w-12 h-12"
-                ><i class="fa-brands fa-instagram text-xl"></i
-              ></a>
-              <a
-                href=""
-                class="social-icon flex items-center justify-center w-12 h-12"
-                ><i class="fa-brands fa-linkedin-in text-xl"></i
-              ></a>
+              >
+                <i class="fa-brands fa-instagram text-xl"></i>
+              </a>
 
               <a
-                href=""
+                href="#"
                 class="social-icon flex items-center justify-center w-12 h-12"
-                ><i class="fa-brands fa-twitter text-xl"></i
-              ></a>
+              >
+                <i class="fa-brands fa-linkedin-in text-xl"></i>
+              </a>
+
               <a
-                href=""
+                href="#"
                 class="social-icon flex items-center justify-center w-12 h-12"
-                ><i class="fa-brands fa-behance text-xl"></i
-              ></a>
+              >
+                <i class="fa-brands fa-twitter text-xl"></i>
+              </a>
+
+              <a
+                href="#"
+                class="social-icon flex items-center justify-center w-12 h-12"
+              >
+                <i class="fa-brands fa-behance text-xl"></i>
+              </a>
             </div>
           </div>
 
@@ -194,15 +207,15 @@
         </div>
       </div>
     </section>
-    <!-- exparience section end-->
+    <!-- experience section end -->
 
     <!-- work progress section -->
-    <section class="bg-[#F2F3F5] py-24">
+    <section class="bg-[#F2F3F5] progress">
       <div
         class="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-start justify-between gap-16"
       >
         <!-- LEFT CONTENT -->
-        <div class="max-w-xl pt-6">
+        <div class="max-w-xl pt-6 mt-40">
           <h2 class="text-4xl font-bold text-[#0F2A44]">Work Process</h2>
 
           <p class="mt-6 text-gray-600 leading-relaxed">
@@ -218,13 +231,11 @@
         </div>
 
         <!-- RIGHT CARDS -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-30">
           <!-- Card 1 -->
-          <div
-            class="bg-white rounded-2xl p-7 shadow-sm w-[260px] process-card cursor-pointer"
-          >
+          <div class="bg-white rounded-2xl p-7 w-[260px] card cursor-pointer">
             <div
-              class="process-icon w-12 h-12 rounded-xl bg-purple-100 flex items-center justify-center text-purple-600"
+              class="icon w-12 h-12 rounded-xl bg-purple-100 flex items-center justify-center text-purple-600"
             >
               <i class="fa-regular fa-calendar text-lg"></i>
             </div>
@@ -238,9 +249,9 @@
           </div>
 
           <!-- Card 2 -->
-          <div class="bg-white rounded-2xl p-7 shadow-sm w-[260px]">
+          <div class="bg-white rounded-2xl p-7 w-[260px] card cursor-pointer">
             <div
-              class="w-12 h-12 rounded-xl bg-purple-100 flex items-center justify-center text-purple-600"
+              class="process-icon w-12 h-12 rounded-xl bg-purple-100 flex items-center justify-center text-purple-600"
             >
               <i class="fa-solid fa-chart-line text-lg"></i>
             </div>
@@ -252,9 +263,9 @@
           </div>
 
           <!-- Card 3 -->
-          <div class="bg-white rounded-2xl p-7 shadow-sm w-[260px]">
+          <div class="bg-white rounded-2xl p-7 w-[260px] card cursor-pointer">
             <div
-              class="w-12 h-12 rounded-xl bg-purple-100 flex items-center justify-center text-purple-600"
+              class="process-icon w-12 h-12 rounded-xl bg-purple-100 flex items-center justify-center text-purple-600"
             >
               <i class="fa-solid fa-pen-nib text-lg"></i>
             </div>
@@ -266,9 +277,9 @@
           </div>
 
           <!-- Card 4 -->
-          <div class="bg-white rounded-2xl p-7 shadow-sm w-[260px]">
+          <div class="bg-white rounded-2xl p-7 w-[260px] card cursor-pointer">
             <div
-              class="w-12 h-12 rounded-xl bg-purple-100 flex items-center justify-center text-purple-600"
+              class="process-icon w-12 h-12 rounded-xl bg-purple-100 flex items-center justify-center text-purple-600"
             >
               <i class="fa-solid fa-rocket text-lg"></i>
             </div>
@@ -281,7 +292,187 @@
         </div>
       </div>
     </section>
-    <!-- work progress section end-->
+    <!-- work progress section end -->
+
+    <!-- portfolio section -->
+    <section class="py-24">
+      <div class="max-w-7xl mx-auto px-6">
+        <!-- TITLE -->
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-[#0F2A44]">Portfolio</h2>
+          <p class="mt-4 text-gray-500 max-w-xl mx-auto">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration.
+          </p>
+        </div>
+
+        <!-- GRID -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- CARD -->
+          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+            <img
+              src="image/portfolio/pprtfolio1.jpg"
+              class="w-full h-[220px] object-cover"
+            />
+
+            <div class="p-6">
+              <p class="text-xs text-gray-400 uppercase">UI-UX DESIGN</p>
+              <h3 class="mt-2 font-semibold text-[#0F2A44]">
+                Product Admin Dashboard
+              </h3>
+
+              <p class="mt-3 text-gray-500 text-sm">
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet. Donec id imperdiet lacus.
+              </p>
+
+              <a
+                href="#"
+                class="inline-flex items-center mt-5 px-5 py-2 border border-purple-600 text-purple-600 rounded-md hover:bg-purple-600 hover:text-white transition"
+              >
+                Case Study →
+              </a>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+            <img
+              src="image/portfolio/pprtfolio2.jpg"
+              class="w-full h-[220px] object-cover"
+            />
+
+            <div class="p-6">
+              <p class="text-xs text-gray-400 uppercase">UI-UX DESIGN</p>
+              <h3 class="mt-2 font-semibold text-[#0F2A44]">
+                Product Admin Dashboard
+              </h3>
+
+              <p class="mt-3 text-gray-500 text-sm">
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet. Donec id imperdiet lacus.
+              </p>
+
+              <a
+                href="#"
+                class="inline-flex items-center mt-5 px-5 py-2 border border-purple-600 text-purple-600 rounded-md hover:bg-purple-600 hover:text-white transition"
+              >
+                Case Study →
+              </a>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+            <img
+              src="image/portfolio/pprtfolio3.jpg"
+              class="w-full h-[220px] object-cover"
+            />
+
+            <div class="p-6">
+              <p class="text-xs text-gray-400 uppercase">UI-UX DESIGN</p>
+              <h3 class="mt-2 font-semibold text-[#0F2A44]">
+                Product Admin Dashboard
+              </h3>
+
+              <p class="mt-3 text-gray-500 text-sm">
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet. Donec id imperdiet lacus.
+              </p>
+
+              <a
+                href="#"
+                class="inline-flex items-center mt-5 px-5 py-2 border border-purple-600 text-purple-600 rounded-md hover:bg-purple-600 hover:text-white transition"
+              >
+                Case Study →
+              </a>
+            </div>
+          </div>
+
+          <!-- CARD 4 -->
+          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+            <img
+              src="image/portfolio/pprtfolio4.jpg"
+              class="w-full h-[220px] object-cover"
+            />
+
+            <div class="p-6">
+              <p class="text-xs text-gray-400 uppercase">UI-UX DESIGN</p>
+              <h3 class="mt-2 font-semibold text-[#0F2A44]">
+                Product Admin Dashboard
+              </h3>
+
+              <p class="mt-3 text-gray-500 text-sm">
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet. Donec id imperdiet lacus.
+              </p>
+
+              <a
+                href="#"
+                class="inline-flex items-center mt-5 px-5 py-2 border border-purple-600 text-purple-600 rounded-md hover:bg-purple-600 hover:text-white transition"
+              >
+                Case Study →
+              </a>
+            </div>
+          </div>
+
+          <!-- CARD 5 -->
+          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+            <img
+              src="image/portfolio/pprtfolio5.jpg"
+              class="w-full h-[220px] object-cover"
+            />
+
+            <div class="p-6">
+              <p class="text-xs text-gray-400 uppercase">UI-UX DESIGN</p>
+              <h3 class="mt-2 font-semibold text-[#0F2A44]">
+                Product Admin Dashboard
+              </h3>
+
+              <p class="mt-3 text-gray-500 text-sm">
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet. Donec id imperdiet lacus.
+              </p>
+
+              <a
+                href="#"
+                class="inline-flex items-center mt-5 px-5 py-2 border border-purple-600 text-purple-600 rounded-md hover:bg-purple-600 hover:text-white transition"
+              >
+                Case Study →
+              </a>
+            </div>
+          </div>
+
+          <!-- CARD 6 -->
+          <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+            <img
+              src="image/portfolio/pprtfolio6.jpg"
+              class="w-full h-[220px] object-cover"
+            />
+
+            <div class="p-6">
+              <p class="text-xs text-gray-400 uppercase">UI-UX DESIGN</p>
+              <h3 class="mt-2 font-semibold text-[#0F2A44]">
+                Product Admin Dashboard
+              </h3>
+
+              <p class="mt-3 text-gray-500 text-sm">
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet. Donec id imperdiet lacus.
+              </p>
+
+              <a
+                href="#"
+                class="inline-flex items-center mt-5 px-5 py-2 border border-purple-600 text-purple-600 rounded-md hover:bg-purple-600 hover:text-white transition"
+              >
+                Case Study →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section end-->
     <!-- body section end-->
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
