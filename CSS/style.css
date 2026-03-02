@@ -1,0 +1,100 @@
+:root {
+  --primary-purple: #7c3aed;
+  --color-white: #fff;
+}
+.navbar a {
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background-color:var(--primary-purple); 
+  color: var(--color-white);            
+}
+
+
+.image-div{
+    width: 636px;
+    height: 536px;
+}
+.img{
+    width: 636px;
+    height: 520px;
+    box-shadow: 0px 0px 7px 1px;
+
+}
+
+.hero {
+  position: relative;
+  /* background: #f3efe8;  */
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.hero::after {
+  content: "";
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 42%;     
+  height: 100%;
+
+  background: linear-gradient(
+    to top,
+    #d6c1d6 0%,
+    #cdd6d8 55%,
+    #bfe3db 100%
+  );
+}
+.hero .btn {
+  transition: all 0.5s ease;
+}
+
+.hero .btn:hover {
+  background-color: var(--color-white);
+  color: var(--primary-purple);
+  border: 1px solid var(--primary-purple);
+}
+
+.exparience .social-icon{
+    transition: all 0.3s ease;
+    background-color: var(--color-white);
+}
+
+.exparience .social-icon:hover {
+  background-color: var(--primary-purple);
+  color: var(--color-white);
+  border-radius: 15%;
+}
+.exparience .btn{
+  border: 1px solid var(--primary-purple);
+  background-color: var(--primary-purple);
+  color: var(--color-white);
+  transition: all 0.5s ease;
+
+}
+.exparience .btn:hover{
+  background-color: var(--primary-purple);
+  background-color: var(--color-white);
+  color: var(--primary-purple);
+
+}
+
+.work-progress .process-card {
+  transition: all 0.3s ease;
+}
+
+.work-progress .process-card.active {
+  background: #ffffff;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.work-progress .process-icon {
+  transition: all 0.3s ease;
+}
+
+.work-progress .process-card.active .process-icon {
+  background: var(--primary-purple);
+  color: #ffffff;
+}
