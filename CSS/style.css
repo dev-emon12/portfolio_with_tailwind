@@ -104,5 +104,94 @@
 .progress .card .progress-icon{
   transition: var(--transition);
 }
+.portfolio .card{
+  transition: var(--transition);
+}
+.portfolio .card:hover{
+  box-shadow: 6px 9px 8px 0px gray;
+}
+.portfolio .card .button{
+  border: 1px solid var(--primary-purple);
+  color: var(--primary-purple);
+  transition: var(--transition);
+}
+.portfolio .card .button:hover{
+  background-color: var(--primary-purple);
+  color: var(--color-white);
+}
+.portfolio .more-btn{
+  font-weight: 600;
+  background-color: var(--primary-purple);
+  color: var(--color-white);
+  transition: var(--transition);
+}
+.portfolio .more-btn:hover{
+  background-color: var(--color-white);
+  color: var(--primary-purple);
+}
+.work-together .work-together-btn{
+  background-color: var(--primary-purple);
+  color: var(--color-white);
+  transition: var(--transition);
+}
+.work-together .work-together-btn:hover{
+  background-color: var(--color-white);
+  color: var(--primary-purple);
+  border: 1px var(--primary-purple);
+}
+.service-card {
+  background: var(--color-white);
+  border-radius: 12px;
+  padding: 32px;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
 
+.service-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 20px;
+  bottom: 20px;
+  width: 4px;
+  background: var(--primary-purple); 
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
 
+.service-card:hover::before {
+  opacity: 1;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+.do .btn {
+  transition: var(--transition);
+}
+
+.do .btn:hover {
+  background-color: var(--color-white);
+  color: var(--primary-purple);
+  border: 1px solid var(--primary-purple);
+}
+
+.client-logo {
+  width: 140px !important;     /* change size here */
+  height: 40px !important;     /* keeps all logos equal height */
+  object-fit: contain;
+
+  opacity: 0.6;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.client-logo:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: translateY(-3px);
+}
