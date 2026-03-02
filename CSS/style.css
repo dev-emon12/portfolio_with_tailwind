@@ -180,8 +180,8 @@
 }
 
 .client-logo {
-  width: 140px !important;     /* change size here */
-  height: 40px !important;     /* keeps all logos equal height */
+  width: 140px !important;     
+  height: 40px !important;     
   object-fit: contain;
 
   opacity: 0.6;
