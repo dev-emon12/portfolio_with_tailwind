@@ -180,8 +180,8 @@
 }
 
 .client-logo {
-  width: 140px !important;     
-  height: 40px !important;     
+  width: 197px !important;
+  height: 235px !important;   
   object-fit: contain;
 
   opacity: 0.6;
@@ -189,7 +189,6 @@
   transition: all 0.3s ease;
 }
 
-/* Hover effect */
 .client-logo:hover {
   opacity: 1;
   filter: grayscale(0%);
